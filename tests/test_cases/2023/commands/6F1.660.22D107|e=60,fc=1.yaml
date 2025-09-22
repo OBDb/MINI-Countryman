@@ -1,0 +1,14 @@
+command_id: 6F1.660.22D107|e=60,fc=1
+test_cases:
+- expected_values:
+    MINI_VSS: 0
+  response: 660F10562D1070000
+- expected_values:
+    MINI_VSS: 2.6
+  response: 660F10562D107001A
+- expected_values:
+    MINI_VSS: 102.3
+  response: 660F10562D10703FF
+- expected_values:
+    MINI_VSS: 154.7
+  response: 660F10562D107060B
