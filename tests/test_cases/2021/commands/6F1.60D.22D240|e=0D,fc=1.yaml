@@ -4,5 +4,5 @@ test_cases:
     MINI_VSS_INSTR: 0
   response: 60DF10562D2400000
 - expected_values:
-    MINI_VSS_INSTR: 93
-  response: 60DF10562D240005D
+    MINI_VSS_INSTR: 102
+  response: 60DF10562D2400066
