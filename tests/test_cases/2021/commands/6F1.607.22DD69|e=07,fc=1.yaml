@@ -1,6 +1,12 @@
 command_id: 6F1.607.22DD69|e=07,fc=1
 test_cases:
 - expected_values:
+    MINI_HVBAT_C: 2
+    MINI_HVBAT_CURR: 2
+  response: |-
+    607F1100762DD690000
+    607F12100C8FFFFFFFF
+- expected_values:
     MINI_HVBAT_C: 57.26
     MINI_HVBAT_CURR: 57.26
   response: |-
@@ -30,6 +36,12 @@ test_cases:
   response: |-
     607F1100762DD69FFFF
     607F121EFC9FFFFFFFF
+- expected_values:
+    MINI_HVBAT_C: -11.21
+    MINI_HVBAT_CURR: 10000
+  response: |-
+    607F1100762DD69FFFF
+    607F121FB9FFFFFFFFF
 - expected_values:
     MINI_HVBAT_C: -0.65
     MINI_HVBAT_CURR: 10000

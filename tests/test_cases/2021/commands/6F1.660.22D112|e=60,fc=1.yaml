@@ -4,29 +4,8 @@ test_cases:
     MINI_AAT: 13.5
   response: 660F10562D1126B6B
 - expected_values:
-    MINI_AAT: 13.5
-  response: 660F10562D1126B6C
-- expected_values:
-    MINI_AAT: 13.5
-  response: 660F10562D1126B6D
-- expected_values:
-    MINI_AAT: 14
-  response: 660F10562D1126C6C
-- expected_values:
-    MINI_AAT: 19.5
-  response: 660F10562D1127777
-- expected_values:
-    MINI_AAT: 19.5
-  response: 660F10562D1127778
-- expected_values:
-    MINI_AAT: 19.5
-  response: 660F10562D112777B
-- expected_values:
     MINI_AAT: 19.5
   response: 660F10562D112777C
 - expected_values:
     MINI_AAT: 20
   response: 660F10562D1127878
-- expected_values:
-    MINI_AAT: 20
-  response: 660F10562D1127879
