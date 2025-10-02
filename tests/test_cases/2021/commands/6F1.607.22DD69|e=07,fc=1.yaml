@@ -43,6 +43,12 @@ test_cases:
     607F1100762DD69FFFF
     607F121FB9FFFFFFFFF
 - expected_values:
+    MINI_HVBAT_C: -1.07
+    MINI_HVBAT_CURR: 10000
+  response: |-
+    607F1100762DD69FFFF
+    607F121FF95FFFFFFFF
+- expected_values:
     MINI_HVBAT_C: -0.65
     MINI_HVBAT_CURR: 10000
   response: |-
