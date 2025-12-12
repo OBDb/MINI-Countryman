@@ -6,3 +6,9 @@ test_cases:
   response: |-
     607F1100762DD690000
     607F12106C4FFFFFFFF
+- expected_values:
+    MINI_HVBAT_C: -24.34
+    MINI_HVBAT_CURR: 10000
+  response: |-
+    607F1100762DD69FFFF
+    607F121F67EFFFFFFFF
