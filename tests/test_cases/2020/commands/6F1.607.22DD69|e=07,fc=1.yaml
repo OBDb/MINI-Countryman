@@ -1,0 +1,8 @@
+command_id: 6F1.607.22DD69|e=07,fc=1
+test_cases:
+- expected_values:
+    MINI_HVBAT_C: 17.32
+    MINI_HVBAT_CURR: 17.32
+  response: |-
+    607F1100762DD690000
+    607F12106C4FFFFFFFF
