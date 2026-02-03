@@ -106,14 +106,6 @@ test_cases:
     618F1220001FBB4FFFF
 - expected_values:
     MINI_TIME_D: 2
-    MINI_TIME_M: 15
-    MINI_TIME_S: 71
-  response: |-
-    618F1100F62DA370247
-    618F1210FA000068393
-    618F1220001FBB4FFFF
-- expected_values:
-    MINI_TIME_D: 2
     MINI_TIME_M: 16
     MINI_TIME_S: 71
   response: |-
@@ -122,9 +114,9 @@ test_cases:
     618F1220001FBB4FFFF
 - expected_values:
     MINI_TIME_D: 2
-    MINI_TIME_M: 1
-    MINI_TIME_S: 75
+    MINI_TIME_M: 121
+    MINI_TIME_S: 77
   response: |-
-    618F1100F62DA37024B
-    618F1210122000684DF
+    618F1100F62DA37024D
+    618F12179F1000690E4
     618F1220001FBB4FFFF
