@@ -2,6 +2,14 @@ command_id: 6F1.618.22DA37|e=18,fc=1
 test_cases:
 - expected_values:
     MINI_TIME_D: 0
+    MINI_TIME_M: 155
+    MINI_TIME_S: 74
+  response: |-
+    618F1100F62DA37004A
+    618F1219B5300000273
+    618F122000074ACFFFF
+- expected_values:
+    MINI_TIME_D: 0
     MINI_TIME_M: 76
     MINI_TIME_S: 129
   response: |-
