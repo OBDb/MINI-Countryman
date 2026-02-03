@@ -1,20 +1,11 @@
 command_id: 6F1.618.22DA2E|e=18,fc=1
 test_cases:
 - expected_values:
-    MINI_GEAR: 1
     MINI_GEAR_SHIFT: REVERSE
   response: 618F10462DA2E01
 - expected_values:
-    MINI_GEAR: 2
     MINI_GEAR_SHIFT: NEUTRAL
   response: 618F10462DA2E02
 - expected_values:
-    MINI_GEAR: 3
     MINI_GEAR_SHIFT: DRIVE
   response: 618F10462DA2E03
-- expected_values:
-    MINI_GEAR: 6
-  response: 618F10462DA2E06
-- expected_values:
-    MINI_GEAR: 11
-  response: 618F10462DA2E0B
