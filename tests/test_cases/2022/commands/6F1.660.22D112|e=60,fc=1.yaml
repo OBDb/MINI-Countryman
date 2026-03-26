@@ -1,0 +1,11 @@
+command_id: 6F1.660.22D112|e=60,fc=1
+test_cases:
+- expected_values:
+    MINI_AAT: 28
+  response: 660F10562D1128889
+- expected_values:
+    MINI_AAT: 29
+  response: 660F10562D1128AA0
+- expected_values:
+    MINI_AAT: 30.5
+  response: 660F10562D1128D93
