@@ -1,0 +1,23 @@
+command_id: 6F1.612.224402|e=12,fc=1
+test_cases:
+- expected_values:
+    MINI_EOT: -60
+  response: 612F1056244020076
+- expected_values:
+    MINI_EOT: -60
+  response: 612F1056244020079
+- expected_values:
+    MINI_EOT: -60
+  response: 612F105624402007E
+- expected_values:
+    MINI_EOT: -60
+  response: 612F1056244020085
+- expected_values:
+    MINI_EOT: -60
+  response: 612F105624402008C
+- expected_values:
+    MINI_EOT: -60
+  response: 612F1056244020092
+- expected_values:
+    MINI_EOT: -60
+  response: 612F1056244020098
