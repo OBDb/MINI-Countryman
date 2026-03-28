@@ -10,5 +10,5 @@ test_cases:
     MINI_EOP: 2.57
   response: 612F10562586F0A0A
 - expected_values:
-    MINI_EOP: 4.926
-  response: 612F10562586F133E
+    MINI_EOP: 5.561
+  response: 612F10562586F15B9
