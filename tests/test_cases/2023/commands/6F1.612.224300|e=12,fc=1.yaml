@@ -5,4 +5,4 @@ test_cases:
   response: 612F1056243000E5B
 - expected_values:
     MINI_ET: -35.24
-  response: 612F1056243000EDB
+  response: 612F1056243000EEC

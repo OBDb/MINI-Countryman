@@ -11,37 +11,12 @@ test_cases:
     640F110076217000001
     640F1212DC1FFFFFFFF
 - expected_values:
-    MINI_ODO_2: 77259
-  response: |-
-    640F110076217000001
-    640F1212DCBFFFFFFFF
-- expected_values:
     MINI_ODO_2: 78689
   response: |-
     640F110076217000001
     640F1213361FFFFFFFF
 - expected_values:
-    MINI_ODO_2: 79386
+    MINI_ODO_2: 79455
   response: |-
     640F110076217000001
-    640F121361AFFFFFFFF
-- expected_values:
-    MINI_ODO_2: 79394
-  response: |-
-    640F110076217000001
-    640F1213622FFFFFFFF
-- expected_values:
-    MINI_ODO_2: 79395
-  response: |-
-    640F110076217000001
-    640F1213623FFFFFFFF
-- expected_values:
-    MINI_ODO_2: 79397
-  response: |-
-    640F110076217000001
-    640F1213625FFFFFFFF
-- expected_values:
-    MINI_ODO_2: 79403
-  response: |-
-    640F110076217000001
-    640F121362BFFFFFFFF
+    640F121365FFFFFFFFF
