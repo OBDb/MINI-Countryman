@@ -26,14 +26,6 @@ test_cases:
     618F1220001E120FFFF
 - expected_values:
     MINI_TIME_D: 2
-    MINI_TIME_M: 200
-    MINI_TIME_S: 23
-  response: |-
-    618F1100F62DA370217
-    618F121C8C1000452A3
-    618F1220001E6FBFFFF
-- expected_values:
-    MINI_TIME_D: 2
     MINI_TIME_M: 59
     MINI_TIME_S: 28
   response: |-
@@ -114,14 +106,6 @@ test_cases:
     618F122000201BCFFFF
 - expected_values:
     MINI_TIME_D: 2
-    MINI_TIME_M: 39
-    MINI_TIME_S: 96
-  response: |-
-    618F1100F62DA370260
-    618F1212759000748DC
-    618F122000201E8FFFF
-- expected_values:
-    MINI_TIME_D: 2
     MINI_TIME_M: 58
     MINI_TIME_S: 96
   response: |-
@@ -130,9 +114,17 @@ test_cases:
     618F122000201E8FFFF
 - expected_values:
     MINI_TIME_D: 2
-    MINI_TIME_M: 58
-    MINI_TIME_S: 96
+    MINI_TIME_M: 87
+    MINI_TIME_S: 98
   response: |-
-    618F1100F62DA370260
-    618F1213A7C00076124
-    618F122000201E8FFFF
+    618F1100F62DA370262
+    618F121576F00077502
+    618F122000201FCFFFF
+- expected_values:
+    MINI_TIME_D: 2
+    MINI_TIME_M: 116
+    MINI_TIME_S: 98
+  response: |-
+    618F1100F62DA370262
+    618F12174C800079058
+    618F122000201FCFFFF
