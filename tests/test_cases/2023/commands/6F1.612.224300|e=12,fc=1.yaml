@@ -5,6 +5,9 @@ test_cases:
   response: 612F1056243000B11
 - expected_values:
     MINI_ET: -36.58
+  response: 612F1056243000D01
+- expected_values:
+    MINI_ET: -36.58
   response: 612F1056243000DF8
 - expected_values:
     MINI_ET: -35.24
