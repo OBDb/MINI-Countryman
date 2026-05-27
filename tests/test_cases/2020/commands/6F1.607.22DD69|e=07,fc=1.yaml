@@ -12,3 +12,33 @@ test_cases:
   response: |-
     607F1100762DD69FFFF
     607F121F67EFFFFFFFF
+- expected_values:
+    MINI_HVBAT_C: -1.41
+    MINI_HVBAT_CURR: 10000
+  response: |-
+    607F1100762DD69FFFF
+    607F121FF73FFFFFFFF
+- expected_values:
+    MINI_HVBAT_C: -1.26
+    MINI_HVBAT_CURR: 10000
+  response: |-
+    607F1100762DD69FFFF
+    607F121FF82FFFFFFFF
+- expected_values:
+    MINI_HVBAT_C: -1.25
+    MINI_HVBAT_CURR: 10000
+  response: |-
+    607F1100762DD69FFFF
+    607F121FF83FFFFFFFF
+- expected_values:
+    MINI_HVBAT_C: -0.72
+    MINI_HVBAT_CURR: 10000
+  response: |-
+    607F1100762DD69FFFF
+    607F121FFB8FFFFFFFF
+- expected_values:
+    MINI_HVBAT_C: -0.61
+    MINI_HVBAT_CURR: 10000
+  response: |-
+    607F1100762DD69FFFF
+    607F121FFC3FFFFFFFF
