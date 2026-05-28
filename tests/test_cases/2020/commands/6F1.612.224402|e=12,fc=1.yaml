@@ -3,3 +3,12 @@ test_cases:
 - expected_values:
     MINI_EOT: -60
   response: 612F105624402005B
+- expected_values:
+    MINI_EOT: -60
+  response: 612F105624402005D
+- expected_values:
+    MINI_EOT: -60
+  response: 612F1056244020060
+- expected_values:
+    MINI_EOT: -60
+  response: 612F1056244020069

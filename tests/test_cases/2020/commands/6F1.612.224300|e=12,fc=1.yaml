@@ -3,3 +3,15 @@ test_cases:
 - expected_values:
     MINI_ET: 69.28
   response: 612F1046243005C
+- expected_values:
+    MINI_ET: 71.96
+  response: 612F1046243005E
+- expected_values:
+    MINI_ET: 92.06
+  response: 612F1046243006D
+- expected_values:
+    MINI_ET: 110.82
+  response: 612F1046243007B
+- expected_values:
+    MINI_ET: 113.5
+  response: 612F1046243007D
