@@ -12,3 +12,6 @@ test_cases:
 - expected_values:
     MINI_OIL_TEMP_ALT: 100
   response: 612F1056257C303E8
+- expected_values:
+    MINI_OIL_TEMP_ALT: 122.5
+  response: 612F1056257C304C9
