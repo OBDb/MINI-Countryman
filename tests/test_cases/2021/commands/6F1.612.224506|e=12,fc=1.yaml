@@ -4,8 +4,8 @@ test_cases:
     MINI_OIL_TEMP: 0
   response: 612F1056245060000
 - expected_values:
-    MINI_OIL_TEMP: 45
-  response: 612F1056245062DFF
+    MINI_OIL_TEMP: 34
+  response: 612F10562450622FF
 - expected_values:
     MINI_OIL_TEMP: 111
-  response: 612F1056245066F29
+  response: 612F1056245066F1F
