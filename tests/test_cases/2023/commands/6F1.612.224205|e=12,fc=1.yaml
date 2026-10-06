@@ -1,0 +1,14 @@
+command_id: 6F1.612.224205|e=12,fc=1
+test_cases:
+- expected_values:
+    MINI_BOOST_P: 100.67188
+  response: 612F1056242053256
+- expected_values:
+    MINI_BOOST_P: 101.95312
+  response: 612F10562420532FA
+- expected_values:
+    MINI_BOOST_P: 106.07031
+  response: 612F1056242053509
+- expected_values:
+    MINI_BOOST_P: 127.60156
+  response: 612F1056242053FCD

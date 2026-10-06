@@ -1,0 +1,29 @@
+command_id: 6F1.612.22582C|e=12,fc=1
+test_cases:
+- expected_values:
+    MINI_LAMBDA_2: 0.91211
+  response: 612F10562582C0E98
+- expected_values:
+    MINI_LAMBDA_2: 0.97656
+  response: 612F10562582C0FA0
+- expected_values:
+    MINI_LAMBDA_2: 0.99219
+  response: 612F10562582C0FE0
+- expected_values:
+    MINI_LAMBDA_2: 1.00146
+  response: 612F10562582C1006
+- expected_values:
+    MINI_LAMBDA_2: 1.00244
+  response: 612F10562582C100A
+- expected_values:
+    MINI_LAMBDA_2: 1.00903
+  response: 612F10562582C1025
+- expected_values:
+    MINI_LAMBDA_2: 1.26099
+  response: 612F10562582C142D
+- expected_values:
+    MINI_LAMBDA_2: 2.09619
+  response: 612F10562582C218A
+- expected_values:
+    MINI_LAMBDA_2: null
+  response: 612F10562582CFFFF
