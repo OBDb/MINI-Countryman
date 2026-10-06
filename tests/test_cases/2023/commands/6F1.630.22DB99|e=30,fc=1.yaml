@@ -1,0 +1,26 @@
+command_id: 6F1.630.22DB99|e=30,fc=1
+test_cases:
+- expected_values:
+    MINI_STEER_TQ: 0.58594
+  response: 630F10662DB99004B00
+- expected_values:
+    MINI_STEER_TQ: 0.72656
+  response: 630F10662DB99005D00
+- expected_values:
+    MINI_STEER_TQ: 0.79688
+  response: 630F10662DB99006600
+- expected_values:
+    MINI_STEER_TQ: -1.5625
+  response: 630F10662DB99FF3800
+- expected_values:
+    MINI_STEER_TQ: -0.91406
+  response: 630F10662DB99FF8B00
+- expected_values:
+    MINI_STEER_TQ: -0.625
+  response: 630F10662DB99FFB000
+- expected_values:
+    MINI_STEER_TQ: -0.21875
+  response: 630F10662DB99FFE400
+- expected_values:
+    MINI_STEER_TQ: -0.10938
+  response: 630F10662DB99FFF200

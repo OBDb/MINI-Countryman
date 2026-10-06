@@ -1,0 +1,14 @@
+command_id: 6F1.612.224408|e=12,fc=1
+test_cases:
+- expected_values:
+    MINI_EOT_DME: 70.95
+    MINI_EOT_DME_K: -238.74
+  response: 612F1056244080D71
+- expected_values:
+    MINI_EOT_DME: 82.15
+    MINI_EOT_DME_K: -237.62
+  response: 612F1056244080DE1
+- expected_values:
+    MINI_EOT_DME: 89.25
+    MINI_EOT_DME_K: -236.91
+  response: 612F1056244080E28

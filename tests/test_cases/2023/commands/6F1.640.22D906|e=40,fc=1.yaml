@@ -1,0 +1,18 @@
+command_id: 6F1.640.22D906|e=40,fc=1
+test_cases:
+- expected_values:
+    MINI_AC_COMP_PWM: 0
+    MINI_AC_COMP_STAT: 0
+  response: 640F10662D906000000
+- expected_values:
+    MINI_AC_COMP_PWM: 31
+    MINI_AC_COMP_STAT: 1
+  response: 640F10662D90600011F
+- expected_values:
+    MINI_AC_COMP_PWM: 32
+    MINI_AC_COMP_STAT: 1
+  response: 640F10662D906000120
+- expected_values:
+    MINI_AC_COMP_PWM: 42
+    MINI_AC_COMP_STAT: 1
+  response: 640F10662D90600012A

@@ -1,0 +1,29 @@
+command_id: 6F1.612.2258BA|e=12,fc=1
+test_cases:
+- expected_values:
+    MINI_CRANK_TQ: 0
+  response: 612F1056258BA0000
+- expected_values:
+    MINI_CRANK_TQ: 23.3
+  response: 612F1056258BA00E9
+- expected_values:
+    MINI_CRANK_TQ: 50.6
+  response: 612F1056258BA01FA
+- expected_values:
+    MINI_CRANK_TQ: 62
+  response: 612F1056258BA026C
+- expected_values:
+    MINI_CRANK_TQ: 71.7
+  response: 612F1056258BA02CD
+- expected_values:
+    MINI_CRANK_TQ: 131
+  response: 612F1056258BA051E
+- expected_values:
+    MINI_CRANK_TQ: 139.6
+  response: 612F1056258BA0574
+- expected_values:
+    MINI_CRANK_TQ: 235.3
+  response: 612F1056258BA0931
+- expected_values:
+    MINI_CRANK_TQ: 259.4
+  response: 612F1056258BA0A22

@@ -1,0 +1,32 @@
+command_id: 6F1.612.22558E|e=12,fc=1
+test_cases:
+- expected_values:
+    MINI_ODO_DME: 86390
+  response: |-
+    612F1100762558E0001
+    612F1215176FFFFFFFF
+- expected_values:
+    MINI_ODO_DME: 86391
+  response: |-
+    612F1100762558E0001
+    612F1215177FFFFFFFF
+- expected_values:
+    MINI_ODO_DME: 86392
+  response: |-
+    612F1100762558E0001
+    612F1215178FFFFFFFF
+- expected_values:
+    MINI_ODO_DME: 86395
+  response: |-
+    612F1100762558E0001
+    612F121517BFFFFFFFF
+- expected_values:
+    MINI_ODO_DME: 86398
+  response: |-
+    612F1100762558E0001
+    612F121517EFFFFFFFF
+- expected_values:
+    MINI_ODO_DME: 86399
+  response: |-
+    612F1100762558E0001
+    612F121517FFFFFFFFF

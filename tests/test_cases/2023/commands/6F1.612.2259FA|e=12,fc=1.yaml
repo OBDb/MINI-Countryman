@@ -1,0 +1,20 @@
+command_id: 6F1.612.2259FA|e=12,fc=1
+test_cases:
+- expected_values:
+    MINI_IGN_ANGLE: 1.5
+  response: 612F1046259FA02
+- expected_values:
+    MINI_IGN_ANGLE: 13.5
+  response: 612F1046259FA12
+- expected_values:
+    MINI_IGN_ANGLE: 15
+  response: 612F1046259FA14
+- expected_values:
+    MINI_IGN_ANGLE: 21.75
+  response: 612F1046259FA1D
+- expected_values:
+    MINI_IGN_ANGLE: -7.5
+  response: 612F1046259FAF6
+- expected_values:
+    MINI_IGN_ANGLE: -2.25
+  response: 612F1046259FAFD

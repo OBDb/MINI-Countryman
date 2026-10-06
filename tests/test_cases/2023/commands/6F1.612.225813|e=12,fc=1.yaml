@@ -1,0 +1,23 @@
+command_id: 6F1.612.225813|e=12,fc=1
+test_cases:
+- expected_values:
+    MINI_LOAD: 11.25
+  response: 612F1046258130F
+- expected_values:
+    MINI_LOAD: 18
+  response: 612F10462581318
+- expected_values:
+    MINI_LOAD: 18.75
+  response: 612F10462581319
+- expected_values:
+    MINI_LOAD: 21.75
+  response: 612F1046258131D
+- expected_values:
+    MINI_LOAD: 23.25
+  response: 612F1046258131F
+- expected_values:
+    MINI_LOAD: 30
+  response: 612F10462581328
+- expected_values:
+    MINI_LOAD: 42
+  response: 612F10462581338

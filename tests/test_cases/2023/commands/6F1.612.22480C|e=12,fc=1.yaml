@@ -1,0 +1,29 @@
+command_id: 6F1.612.22480C|e=12,fc=1
+test_cases:
+- expected_values:
+    MINI_LOAD_TGT: 0
+  response: 612F10562480C0000
+- expected_values:
+    MINI_LOAD_TGT: 11.90625
+  response: 612F10562480C01FC
+- expected_values:
+    MINI_LOAD_TGT: 11.92969
+  response: 612F10562480C01FD
+- expected_values:
+    MINI_LOAD_TGT: 13.00781
+  response: 612F10562480C022B
+- expected_values:
+    MINI_LOAD_TGT: 22.28906
+  response: 612F10562480C03B7
+- expected_values:
+    MINI_LOAD_TGT: 25.42969
+  response: 612F10562480C043D
+- expected_values:
+    MINI_LOAD_TGT: 30.21094
+  response: 612F10562480C0509
+- expected_values:
+    MINI_LOAD_TGT: 30.91406
+  response: 612F10562480C0527
+- expected_values:
+    MINI_LOAD_TGT: 42.25781
+  response: 612F10562480C070B
