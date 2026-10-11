@@ -1,11 +1,11 @@
 command_id: 6F1.612.224AB1|e=12,fc=1
 test_cases:
 - expected_values:
-    MINI_VSS2: 0
+    COUNTRYMAN_VSS2: 0
   response: 612F105624AB10000
 - expected_values:
-    MINI_VSS2: 48.63
+    COUNTRYMAN_VSS2: 48.63
   response: 612F105624AB112FF
 - expected_values:
-    MINI_VSS2: 117.8
+    COUNTRYMAN_VSS2: 117.8
   response: 612F105624AB12E04
