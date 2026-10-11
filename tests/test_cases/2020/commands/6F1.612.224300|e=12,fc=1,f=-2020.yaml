@@ -1,8 +1,8 @@
-command_id: 6F1.612.224300|e=12,fc=1
+command_id: 6F1.612.224300|e=12,fc=1,f=-2020
 test_cases:
 - expected_values:
-    MINI_ET_8: 61.24
+    COUNTRYMAN_ET_8: 16.5
   response: 612F10462430056
 - expected_values:
-    MINI_ET_8: 191.22
+    COUNTRYMAN_ET_8: 89.25
   response: 612F104624300B7
