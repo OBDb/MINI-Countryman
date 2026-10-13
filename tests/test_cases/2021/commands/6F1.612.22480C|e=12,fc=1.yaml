@@ -1,0 +1,11 @@
+command_id: 6F1.612.22480C|e=12,fc=1
+test_cases:
+- expected_values:
+    COUNTRYMAN_LOAD_TGT: 0
+  response: 612F10562480C0000
+- expected_values:
+    COUNTRYMAN_LOAD_TGT: 29.69531
+  response: 612F10562480C04F3
+- expected_values:
+    COUNTRYMAN_LOAD_TGT: 141.79688
+  response: 612F10562480C17A2

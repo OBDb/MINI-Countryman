@@ -1,0 +1,14 @@
+command_id: 6F1.612.224408|e=12,fc=1
+test_cases:
+- expected_values:
+    COUNTRYMAN_EOT_DME: 22.15
+  response: 612F1056244080B89
+- expected_values:
+    COUNTRYMAN_EOT_DME: 35.55
+  response: 612F1056244080C0F
+- expected_values:
+    COUNTRYMAN_EOT_DME: 81.95
+  response: 612F1056244080DDF
+- expected_values:
+    COUNTRYMAN_EOT_DME: 90.25
+  response: 612F1056244080E32

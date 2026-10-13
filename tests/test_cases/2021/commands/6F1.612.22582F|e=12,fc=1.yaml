@@ -1,0 +1,14 @@
+command_id: 6F1.612.22582F|e=12,fc=1
+test_cases:
+- expected_values:
+    COUNTRYMAN_CAT_T: 312.75
+  response: 612F10562582F16E3
+- expected_values:
+    COUNTRYMAN_CAT_T: 521.25
+  response: 612F10562582F1F08
+- expected_values:
+    COUNTRYMAN_CAT_T: 699.35
+  response: 612F10562582F25FD
+- expected_values:
+    COUNTRYMAN_CAT_T: 779.65
+  response: 612F10562582F2920

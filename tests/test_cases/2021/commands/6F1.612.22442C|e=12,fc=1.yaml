@@ -1,0 +1,8 @@
+command_id: 6F1.612.22442C|e=12,fc=1
+test_cases:
+- expected_values:
+    COUNTRYMAN_OIL_LEVEL: 33
+  response: 612F10462442C21
+- expected_values:
+    COUNTRYMAN_OIL_LEVEL: 69
+  response: 612F10462442C45
