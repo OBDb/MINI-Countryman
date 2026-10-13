@@ -1,0 +1,14 @@
+command_id: 6F1.612.224A2D|e=12,fc=1
+test_cases:
+- expected_values:
+    COUNTRYMAN_MAP: 91.39062
+  response: 612F105624A2D2DB2
+- expected_values:
+    COUNTRYMAN_MAP: 92.04688
+  response: 612F105624A2D2E06
+- expected_values:
+    COUNTRYMAN_MAP: 101.98438
+  response: 612F105624A2D32FE
+- expected_values:
+    COUNTRYMAN_MAP: 156.14062
+  response: 612F105624A2D4E12

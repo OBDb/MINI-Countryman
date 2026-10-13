@@ -1,0 +1,14 @@
+command_id: 6F1.660.22D107|e=60,fc=1
+test_cases:
+- expected_values:
+    COUNTRYMAN_VSS: 0
+  response: 660F10562D1070000
+- expected_values:
+    COUNTRYMAN_VSS: 48.5
+  response: 660F10562D10701E5
+- expected_values:
+    COUNTRYMAN_VSS: 51.4
+  response: 660F10562D1070202
+- expected_values:
+    COUNTRYMAN_VSS: 81.4
+  response: 660F10562D107032E

@@ -1,0 +1,14 @@
+command_id: 6F1.612.2256D7|e=12,fc=1
+test_cases:
+- expected_values:
+    COUNTRYMAN_FRP: 129.92
+  response: 612F1056256D71960
+- expected_values:
+    COUNTRYMAN_FRP: 250.92
+  response: 612F1056256D73102
+- expected_values:
+    COUNTRYMAN_FRP: 348.12
+  response: 612F1056256D743FE
+- expected_values:
+    COUNTRYMAN_FRP: 354.12
+  response: 612F1056256D7452A

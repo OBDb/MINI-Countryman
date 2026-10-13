@@ -1,0 +1,14 @@
+command_id: 6F1.629.22DBE5|e=29,fc=1
+test_cases:
+- expected_values:
+    COUNTRYMAN_BRAKE_P: 0.5
+  response: |-
+    629F1100F62DBE50005
+    629F121000000000000
+    629F12200000000FFFF
+- expected_values:
+    COUNTRYMAN_BRAKE_P: 0.6
+  response: |-
+    629F1100F62DBE50006
+    629F121000000000000
+    629F12200000000FFFF

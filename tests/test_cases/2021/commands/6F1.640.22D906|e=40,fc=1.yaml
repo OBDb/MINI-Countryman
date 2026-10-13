@@ -1,0 +1,14 @@
+command_id: 6F1.640.22D906|e=40,fc=1
+test_cases:
+- expected_values:
+    COUNTRYMAN_AC_COMP_PWM: 0
+    COUNTRYMAN_AC_COMP_STAT: 0
+  response: 640F10662D906000000
+- expected_values:
+    COUNTRYMAN_AC_COMP_PWM: 37
+    COUNTRYMAN_AC_COMP_STAT: 1
+  response: 640F10662D906000125
+- expected_values:
+    COUNTRYMAN_AC_COMP_PWM: 50
+    COUNTRYMAN_AC_COMP_STAT: 1
+  response: 640F10662D906000132

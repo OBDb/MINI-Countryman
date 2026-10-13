@@ -1,0 +1,22 @@
+command_id: 6F1.612.22558E|e=12,fc=1
+test_cases:
+- expected_values:
+    COUNTRYMAN_ODO_DME: 70827
+  response: |-
+    612F1100762558E0001
+    612F12114ABFFFFFFFF
+- expected_values:
+    COUNTRYMAN_ODO_DME: 70830
+  response: |-
+    612F1100762558E0001
+    612F12114AEFFFFFFFF
+- expected_values:
+    COUNTRYMAN_ODO_DME: 70832
+  response: |-
+    612F1100762558E0001
+    612F12114B0FFFFFFFF
+- expected_values:
+    COUNTRYMAN_ODO_DME: 70880
+  response: |-
+    612F1100762558E0001
+    612F12114E0FFFFFFFF

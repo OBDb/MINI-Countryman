@@ -1,0 +1,17 @@
+command_id: 6F1.612.22558F|e=12,fc=1
+test_cases:
+- expected_values:
+    COUNTRYMAN_ENG_HOURS: 1290.5
+  response: |-
+    612F1100762558F0000
+    612F1210A15FFFFFFFF
+- expected_values:
+    COUNTRYMAN_ENG_HOURS: 1291
+  response: |-
+    612F1100762558F0000
+    612F1210A16FFFFFFFF
+- expected_values:
+    COUNTRYMAN_ENG_HOURS: 1291.5
+  response: |-
+    612F1100762558F0000
+    612F1210A17FFFFFFFF
