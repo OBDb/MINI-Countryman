@@ -1,0 +1,8 @@
+command_id: 6F1.612.224300|e=12,fc=1,f=-2020
+test_cases:
+- expected_values:
+    COUNTRYMAN_ET_8: 21
+  response: 612F1046243005C
+- expected_values:
+    COUNTRYMAN_ET_8: 66.75
+  response: 612F10462430099

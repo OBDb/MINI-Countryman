@@ -1,0 +1,32 @@
+command_id: 6F1.60D.22D240|e=0D,fc=1
+test_cases:
+- expected_values:
+    COUNTRYMAN_VSS_INSTR: 0
+  response: 60DF10562D2400000
+- expected_values:
+    COUNTRYMAN_VSS_INSTR: 1
+  response: 60DF10562D2400001
+- expected_values:
+    COUNTRYMAN_VSS_INSTR: 21
+  response: 60DF10562D2400015
+- expected_values:
+    COUNTRYMAN_VSS_INSTR: 32
+  response: 60DF10562D2400020
+- expected_values:
+    COUNTRYMAN_VSS_INSTR: 34
+  response: 60DF10562D2400022
+- expected_values:
+    COUNTRYMAN_VSS_INSTR: 38
+  response: 60DF10562D2400026
+- expected_values:
+    COUNTRYMAN_VSS_INSTR: 40
+  response: 60DF10562D2400028
+- expected_values:
+    COUNTRYMAN_VSS_INSTR: 46
+  response: 60DF10562D240002E
+- expected_values:
+    COUNTRYMAN_VSS_INSTR: 50
+  response: 60DF10562D2400032
+- expected_values:
+    COUNTRYMAN_VSS_INSTR: 59
+  response: 60DF10562D240003B

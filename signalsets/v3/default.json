@@ -72,7 +72,7 @@
   "signals": [
     {"id": "COUNTRYMAN_HVBAT_SOC_V2", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "HV battery charge", "suggestedMetric": "stateOfCharge"}
   ]},
-{ "hdr": "6F1", "rax": "60D", "eax": "0D", "fcm1": true, "cmd": {"22": "D240"}, "freq": 0.25, "dbgfilter": { "to": 2016, "years": [2020], "from": 2023 },
+{ "hdr": "6F1", "rax": "60D", "eax": "0D", "fcm1": true, "cmd": {"22": "D240"}, "freq": 0.25, "dbgfilter": { "to": 2016, "from": 2023 },
   "signals": [
     {"id": "COUNTRYMAN_VSS_INSTR", "path": "Movement", "fmt": { "len": 16, "max": 1000, "unit": "kilometersPerHour" }, "name": "Vehicle speed, instrument cluster", "suggestedMetric": "speed", "description": "Instrument cluster vehicle speed."}
   ]},
@@ -127,7 +127,7 @@
   "signals": [
     {"id": "COUNTRYMAN_BOOST_P", "path": "Engine", "fmt": { "len": 16, "max": 511.99, "div": 128, "unit": "kilopascal" }, "name": "Boost pressure"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4300"}, "freq": 1, "filter": { "to": 2020 }, "dbgfilter": { "to": 2019 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4300"}, "freq": 1, "filter": { "to": 2020 }, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019] },
   "signals": [
     {"id": "COUNTRYMAN_ET_8", "path": "Engine", "fmt": { "len": 8, "max": 143.25, "min": -48, "mul": 3, "div": 4, "add": -48, "unit": "celsius" }, "name": "Engine temperature", "suggestedMetric": "engineCoolantTemperature"}
   ]},
@@ -227,7 +227,7 @@
   "signals": [
     {"id": "COUNTRYMAN_CAT_T", "path": "Engine", "fmt": { "len": 16, "max": 6280, "min": -273.15, "div": 10, "add": -273.15, "unit": "celsius" }, "name": "Catalyst temperature"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "586F"}, "freq": 1, "dbgfilter": { "to": 2016, "years": [2018, 2019], "from": 2024 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "586F"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2015, 2018, 2019], "from": 2024 },
   "signals": [
     {"id": "COUNTRYMAN_EOP", "path": "Engine", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "bars" }, "name": "Engine oil pressure"}
   ]},
@@ -438,14 +438,14 @@
     {"id": "COUNTRYMAN_EM_TQ",     "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 16383, "min": -16384, "div": 2,               "sign": true, "unit": "newtonMeters" }, "name": "Drive motor torque, actual"},
     {"id": "COUNTRYMAN_EM_TQ_TGT", "path": "Engine", "fmt": {"bix": 32, "len": 16, "max": 16383, "min": -16384, "div": 2,               "sign": true, "unit": "newtonMeters" }, "name": "Drive motor torque, requested"}
   ]},
-{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "dbg": true, "cmd": {"21": "01"}, "freq": 0.25,
+{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"21": "01"}, "freq": 0.25, "dbgfilter": { "to": 2010, "years": [2012, 2013], "from": 2015 },
   "signals": [
     {"id": "COUNTRYMAN_FL_VSS_21", "path": "Tires", "fmt": {           "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Front left wheel speed, service 21"},
     {"id": "COUNTRYMAN_FR_VSS_21", "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Front right wheel speed, service 21"},
     {"id": "COUNTRYMAN_RL_VSS_21", "path": "Tires", "fmt": {"bix": 16, "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed, service 21"},
     {"id": "COUNTRYMAN_RR_VSS_21", "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed, service 21"}
   ]},
-{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "dbg": true, "cmd": {"21": "04"}, "freq": 0.25,
+{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"21": "04"}, "freq": 0.25, "dbgfilter": { "to": 2010, "years": [2012, 2013], "from": 2015 },
   "signals": [
     {"id": "COUNTRYMAN_STEERING_WHEEL_ANGLE",      "path": "Tires",    "fmt": {           "len": 16, "max": 4095.875, "min": -4096,    "mul": 12.5, "div": 100, "sign": true, "unit": "degrees"                }, "name": "Steering wheel angle"},
     {"id": "COUNTRYMAN_LONGITUDINAL_ACCELERATION", "path": "Movement", "fmt": {"bix": 16, "len": 16, "max": 131.068,  "min": -131.072, "mul": 0.4,  "div": 100, "sign": true, "unit": "metersPerSecondSquared" }, "name": "Longitudinal acceleration"},
@@ -512,7 +512,7 @@
     {"id": "COUNTRYMAN_AC_COMP_STAT", "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "scalar"  }, "name": "Air conditioning compressor status"},
     {"id": "COUNTRYMAN_AC_COMP_PWM",  "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 255, "unit": "percent" }, "name": "Air conditioning compressor PWM"}
   ]},
-{ "hdr": "6F1", "rax": "656", "eax": "56", "fcm1": true, "cmd": {"22": "DCDD"}, "freq": 5, "dbgfilter": { "to": 2016, "years": [2018, 2020], "from": 2024 },
+{ "hdr": "6F1", "rax": "656", "eax": "56", "fcm1": true, "cmd": {"22": "DCDD"}, "freq": 5, "dbgfilter": { "to": 2016, "years": [2018], "from": 2024 },
   "signals": [
     {"id": "COUNTRYMAN_DOOR_DRIVER",         "path": "Doors",   "fmt": {           "len": 8, "max": 255, "unit": "scalar" }, "name": "Driver door open"},
     {"id": "COUNTRYMAN_DOOR_PASSENGER",      "path": "Doors",   "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "scalar" }, "name": "Passenger door open"},

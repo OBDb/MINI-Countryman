@@ -4,11 +4,11 @@ test_cases:
     COUNTRYMAN_EOP: 0.995
   response: 612F10562586F03E3
 - expected_values:
-    COUNTRYMAN_EOP: 1.02
-  response: 612F10562586F03FC
-- expected_values:
     COUNTRYMAN_EOP: 1.032
   response: 612F10562586F0408
+- expected_values:
+    COUNTRYMAN_EOP: 2.558
+  response: 612F10562586F09FE
 - expected_values:
     COUNTRYMAN_EOP: 3.339
   response: 612F10562586F0D0B
