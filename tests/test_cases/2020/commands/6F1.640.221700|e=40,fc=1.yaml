@@ -1,10 +1,15 @@
 command_id: 6F1.640.221700|e=40,fc=1
 test_cases:
 - expected_values:
-    COUNTRYMAN_ODO_2: 121276
+    COUNTRYMAN_ODO_2: 93484
   response: |-
     640F110076217000001
-    640F121D9BCFFFFFFFF
+    640F1216D2CFFFFFFFF
+- expected_values:
+    COUNTRYMAN_ODO_2: 93532
+  response: |-
+    640F110076217000001
+    640F1216D5CFFFFFFFF
 - expected_values:
     COUNTRYMAN_ODO_2: 121296
   response: |-
@@ -15,11 +20,6 @@ test_cases:
   response: |-
     640F110076217000001
     640F121DC3EFFFFFFFF
-- expected_values:
-    COUNTRYMAN_ODO_2: 121926
-  response: |-
-    640F110076217000001
-    640F121DC46FFFFFFFF
 - expected_values:
     COUNTRYMAN_ODO_2: 123905
   response: |-

@@ -1,0 +1,14 @@
+command_id: 6F1.612.22586F|e=12,fc=1
+test_cases:
+- expected_values:
+    COUNTRYMAN_EOP: 2.312
+  response: 612F10562586F0908
+- expected_values:
+    COUNTRYMAN_EOP: 3.072
+  response: 612F10562586F0C00
+- expected_values:
+    COUNTRYMAN_EOP: 3.326
+  response: 612F10562586F0CFE
+- expected_values:
+    COUNTRYMAN_EOP: 4.75
+  response: 612F10562586F128E
