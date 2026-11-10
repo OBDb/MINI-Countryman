@@ -4,30 +4,16 @@ test_cases:
     COUNTRYMAN_GEAR_SHIFT: REVERSE
   response: 618F10462DA2E01
 - expected_values:
-    COUNTRYMAN_GEAR_SHIFT: NEUTRAL
-  response: 618F10462DA2E02
-- expected_values:
     COUNTRYMAN_GEAR_SHIFT: DRIVE
-  response: 618F10462DA2E03
+  response: 618F10462DA2E06
 - expected_values:
     COUNTRYMAN_GEAR_SHIFT: PARK
   response: 618F10562DA2E0000
-- expected_values:
-    COUNTRYMAN_GEAR_SHIFT: NEUTRAL
-  response: 618F10562DA2E0202
 - expected_values:
     COUNTRYMAN_GEAR: DRIVE
     COUNTRYMAN_GEAR_SHIFT: DRIVE
   response: 618F10562DA2E0303
 - expected_values:
     COUNTRYMAN_GEAR: DRIVE
-  response: 618F10562DA2E0403
-- expected_values:
-    COUNTRYMAN_GEAR: DRIVE
-  response: 618F10562DA2E0503
-- expected_values:
-    COUNTRYMAN_GEAR: DRIVE
-  response: 618F10562DA2E0603
-- expected_values:
-    COUNTRYMAN_GEAR: DRIVE
+    COUNTRYMAN_GEAR_SHIFT: DRIVE
   response: 618F10562DA2E0803

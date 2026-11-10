@@ -8,4 +8,5 @@ test_cases:
   response: 618F10562DA2E0304
 - expected_values:
     COUNTRYMAN_GEAR: DRIVE
+    COUNTRYMAN_GEAR_SHIFT: DRIVE
   response: 618F10562DA2E1003
