@@ -1,0 +1,11 @@
+command_id: 6F1.612.224205|e=12,fc=1
+test_cases:
+- expected_values:
+    COUNTRYMAN_BOOST_P: 7.69531
+  response: 612F10562420503D9
+- expected_values:
+    COUNTRYMAN_BOOST_P: 7.82812
+  response: 612F10562420503EA
+- expected_values:
+    COUNTRYMAN_BOOST_P: 8.24219
+  response: 612F105624205041F

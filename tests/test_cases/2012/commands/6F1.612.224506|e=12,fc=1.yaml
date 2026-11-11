@@ -1,0 +1,11 @@
+command_id: 6F1.612.224506|e=12,fc=1
+test_cases:
+- expected_values:
+    COUNTRYMAN_OIL_TEMP: 17
+  response: 612F10562450611B2
+- expected_values:
+    COUNTRYMAN_OIL_TEMP: 24
+  response: 612F10562450618CE
+- expected_values:
+    COUNTRYMAN_OIL_TEMP: 26
+  response: 612F1056245061AB9
