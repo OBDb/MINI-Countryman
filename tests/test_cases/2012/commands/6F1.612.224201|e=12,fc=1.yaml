@@ -1,0 +1,11 @@
+command_id: 6F1.612.224201|e=12,fc=1
+test_cases:
+- expected_values:
+    COUNTRYMAN_BARO: 100.92969
+  response: 612F10562420164EE
+- expected_values:
+    COUNTRYMAN_BARO: 100.95312
+  response: 612F10562420164F4
+- expected_values:
+    COUNTRYMAN_BARO: 100.96094
+  response: 612F10562420164F6

@@ -1,0 +1,11 @@
+command_id: 6F1.612.22580F|e=12,fc=1
+test_cases:
+- expected_values:
+    COUNTRYMAN_IAT_DME: 11.25
+  response: 612F10462580F4F
+- expected_values:
+    COUNTRYMAN_IAT_DME: 12
+  response: 612F10462580F50
+- expected_values:
+    COUNTRYMAN_IAT_DME: 12.75
+  response: 612F10462580F51
