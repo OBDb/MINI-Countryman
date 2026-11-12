@@ -9,3 +9,9 @@ test_cases:
 - expected_values:
     COUNTRYMAN_ET_8: 31.5
   response: 612F1046243006A
+- expected_values:
+    COUNTRYMAN_ET_8: 75
+  response: 612F104624300A4
+- expected_values:
+    COUNTRYMAN_ET_8: 78
+  response: 612F104624300A8
