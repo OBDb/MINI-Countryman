@@ -1,0 +1,14 @@
+command_id: 6F1.660.22D112|e=60,fc=1,f=2017-;-2009
+test_cases:
+- expected_values:
+    COUNTRYMAN_AAT: -11
+  response: 660F10562D1123A3A
+- expected_values:
+    COUNTRYMAN_AAT: 0
+  response: 660F10562D1125051
+- expected_values:
+    COUNTRYMAN_AAT: 20.5
+  response: 660F10562D11279B4
+- expected_values:
+    COUNTRYMAN_AAT: 35
+  response: 660F10562D1129697
